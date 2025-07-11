@@ -1,0 +1,46 @@
+{
+  "name": "cyclewise",
+  "version": "1.0.0",
+  "description": "Fullstack Project",
+  "main": "src/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon src/script.js",
+    "staging": "cross-env NODE_ENV=staging nodemon src/script.js",
+    "start": "cross-env NODE_ENV=production nodemon src/script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priiikrrrr/CycleWise"
+  },
+  "author": "Priyanka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/priiikrrrr/CycleWise/issues"
+  },
+  "homepage": "https://github.com/priiikrrrr/CycleWise#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "express-winston": "^4.2.0",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.2",
+    "morgan": "^1.10.0",
+    "ngrok": "^5.0.0-beta.2",
+    "openai": "^5.8.2",
+    "prompt-sync": "^4.2.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.17.0"
+  }
+}

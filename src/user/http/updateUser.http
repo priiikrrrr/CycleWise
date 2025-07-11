@@ -1,0 +1,9 @@
+PATCH http://localhost:3002/user/update
+content-type: application/json
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODY2N2NmMjRlZTUwYmMyNjc1YjM3MjgiLCJlbWFpbCI6InByaXlhbmthQGdtYWlsLmNvbSIsImlhdCI6MTc1MTU0NzYxMSwiZXhwIjoxNzUxNTUxMjExfQ.ZTKM_IYqi7kK1VyCbEgLKqkBHYqGvKiNQlsgriZaqF4
+# Authorization: Bearer <your_token_here>
+
+{
+
+    "bio" : "you obsess over your identity in relation to others while your soul rots inside of you"
+}

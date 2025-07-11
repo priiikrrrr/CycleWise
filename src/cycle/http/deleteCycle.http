@@ -1,0 +1,3 @@
+DELETE http://localhost:3002/cycle/delete/6868b81476ac1ce85f76c437
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODY2N2NmMjRlZTUwYmMyNjc1YjM3MjgiLCJlbWFpbCI6InByaXlhbmthQGdtYWlsLmNvbSIsImlhdCI6MTc1MTY5MDA2NiwiZXhwIjoxNzUxNjkzNjY2fQ._p-PGaKVvkJs81ILwHsHXYGrXxHF3HQDzRQyDwvDFNM

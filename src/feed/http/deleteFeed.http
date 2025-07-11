@@ -1,0 +1,3 @@
+DELETE http://localhost:3002/feed/delete/68679e8da11f33cf44926ab4
+Content-Type : application/json
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODY2ODA1NjRlZTUwYmMyNjc1YjM3MmUiLCJlbWFpbCI6InRhbm5ueWFzYWdhcjY5QGdtYWlsLmNvbSIsImlhdCI6MTc1MTYyMTUzMiwiZXhwIjoxNzUxNjI1MTMyfQ.mjy6s79PK73o5M-NZNi-NCBkDI-gg3bJMBgxlLx_7IE

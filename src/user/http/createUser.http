@@ -1,0 +1,31 @@
+POST http://localhost:3002/user/create
+Content-Type: application/json
+
+
+ {
+   "firstName" : "Tanu",
+   "lastName" : "Sagar",
+   "email" : "TannnyaSagar69@gmail.com",
+   "password" : "yashSidhantAryan@ing",
+   "privacyMode" : true,
+   "username" : "tanuIsSagar",
+   "bio" : "Whatever you wanna do, do it, there are only so many tommorows"
+ }
+
+# {
+#      "firstName" : "Priyanka",
+#      "lastName" : "Kharwar",
+#      "email" : "priyanka@gmail.com",
+#      "password" : "PASSw@123",
+#      "username" : "priHaiKyaaa"
+#  }
+
+
+// {
+//     "firstName" : "Rajesh",
+//     "email" : "Rajeshhhh78@gmail.com",
+//     "password" : "rajjTest@ing",
+//     "privacyMode" : true,
+//     "bio" : "Tu mere baad khush hee theek, main tere baad theek bhi nai"
+// }
+

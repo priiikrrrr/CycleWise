@@ -1,0 +1,7 @@
+POST http://localhost:3002/feed/comment/6867b64a2b47a668d50754f2
+Content-Type : application/json
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODY2N2NmMjRlZTUwYmMyNjc1YjM3MjgiLCJlbWFpbCI6InByaXlhbmthQGdtYWlsLmNvbSIsImlhdCI6MTc1MTYyNzUzMywiZXhwIjoxNzUxNjMxMTMzfQ.Uj5NCVSptmMFxJgEhx-r69eUvF_7c-oYbCraUCcPjtA
+
+{
+    "text" : "helpful post <3"
+}

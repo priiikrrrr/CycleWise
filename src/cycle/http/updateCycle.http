@@ -1,0 +1,9 @@
+PATCH http://localhost:3002/cycle/update/686a88b14d2d3a9e72a076a6
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODY2N2NmMjRlZTUwYmMyNjc1YjM3MjgiLCJlbWFpbCI6InByaXlhbmthQGdtYWlsLmNvbSIsImlhdCI6MTc1MTgxMTMzNiwiZXhwIjoxNzUxODE0OTM2fQ.94cYvUEcFWytTJSJoouj8eqCIvUDaqITckBztFhvdHA
+
+{
+    "periodStartDate" : "2025-11-27",
+    "symptoms": ["high"]
+}
+

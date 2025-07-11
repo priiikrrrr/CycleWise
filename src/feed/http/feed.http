@@ -1,0 +1,8 @@
+POST http://localhost:3002/feed/create
+Content-Type : application/json
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODY2ODA1NjRlZTUwYmMyNjc1YjM3MmUiLCJlbWFpbCI6InRhbm5ueWFzYWdhcjY5QGdtYWlsLmNvbSIsImlhdCI6MTc1MTYyNzMxOSwiZXhwIjoxNzUxNjMwOTE5fQ.NmzTaJKF3SmLnAbAfswmuCEC2xblFUCercKXcwDVFJo
+
+{
+  "content": "This is my first feed post!",
+  "imageUrl": "https://example.com/myphoto.jpg"  
+}

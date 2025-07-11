@@ -1,0 +1,8 @@
+POST http://localhost:3002/chat/send
+Content-Type: application/json
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODY2ODA1NjRlZTUwYmMyNjc1YjM3MmUiLCJlbWFpbCI6InRhbm5ueWFzYWdhcjY5QGdtYWlsLmNvbSIsImlhdCI6MTc1MTU0ODExMywiZXhwIjoxNzUxNTUxNzEzfQ.OjL4MLVREEDMjY_UWYpZdiBACp90w-MxiMWrJ4W8CfY
+
+{
+    "receiverUsername" : "prihaikyaaa",
+    "message" : "hey! how are ya?"
+}

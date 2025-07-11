@@ -1,0 +1,3 @@
+GET http://localhost:3002/chat/history/tanuissagar
+Content-Type: application/json
+Authorization: Beaer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODY2N2NmMjRlZTUwYmMyNjc1YjM3MjgiLCJlbWFpbCI6InByaXlhbmthQGdtYWlsLmNvbSIsImlhdCI6MTc1MTU0ODc5NywiZXhwIjoxNzUxNTUyMzk3fQ.Kny9t-SKWbOG1lLUDv6ApFc5XO2FKvF71-XQ0jj-W7s

@@ -1,0 +1,8 @@
+POST http://localhost:3002/mood/logMood
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODY2N2NmMjRlZTUwYmMyNjc1YjM3MjgiLCJlbWFpbCI6InByaXlhbmthQGdtYWlsLmNvbSIsImlhdCI6MTc1MTcxMDgwMywiZXhwIjoxNzUxNzE0NDAzfQ.JVja0XX0UBt-soaeg9CKCmknZ7zE9ueHAwBhs4rapuU
+
+{
+  "mood": ["happy", "anxious"],
+  "note": "Mixed feelings today."
+}
