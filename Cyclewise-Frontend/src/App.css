@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "daisyui";
+
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.react-calendar {
+  width: 100%;
+  max-width: 350px;
+  background: white;
+  color:#93c5fd;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.125rem; 
+  transition: all 0.3s ease;
+  pointer-events: auto;
+}
+.react-calendar:hover{
+  color:#2563eb;
+}
+
+
+.react-calendar__tile {
+  padding: 0.75rem 0;
+  font-size: 0.875rem;
+}
+
+.react-calendar__tile--active {
+  background-color: #2563eb !important; /* blue-600 */
+  color: white !important;
+}
+
+.cycle-highlight {
+  background-color: #f456a8 !important; /* Tailwind pink-400 */
+  color: white !important;
+  border: 2px solid black !important; /* black border */
+  border-radius: 6px;
+  box-shadow: 0 0 8px 2px rgba(159, 128, 225, 0.6); /* purple glow */
+  transition: all 0.3s ease;
+}
+
+.cycle-highlight:hover {
+  box-shadow: 0 0 10px 4px rgba(172, 96, 244, 0.8); /* stronger purple on hover */
+}
+.period-day {
+  background-color: #f35353 !important; /* Tailwind red-500 */
+  color: white !important;
+  border: 2px solid black !important;
+  border-radius: 6px;
+  box-shadow: 0 0 8px 2px rgba(239, 68, 68, 0.6); /* red glow */
+  transition: all 0.3s ease;
+}
+
+.period-day:hover {
+  box-shadow: 0 0 10px 4px rgba(239, 68, 68, 0.8);
+}
+
+.fertile-day {
+  background-color: #86efac !important; /* Tailwind green-300 */
+  color: black !important;
+  border-radius: 6px;
+  opacity: 0.6;
+}
+
+.ovulation-day {
+  background-color: #d8b4fe !important; /* Tailwind purple-300 */
+  color: black !important;
+  border-radius: 6px;
+  opacity: 0.6;
+}
